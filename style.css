@@ -415,58 +415,8 @@ footer p {
 }
 
 
-/* Untuk tablet / layar lebih kecil */
-@media (max-width: 950px) {
+/* TAMPILAN TETAP SEPERTI DESKTOP DI SEMUA DEVICE */
 
-    .navbar {
-        flex-direction: column;
-    }
-
-    .menu {
-        gap: 18px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .hero {
-        min-height: 450px;
-        padding: 60px 8%;
-        text-align: center;
-    }
-
-    .hero-text {
-        margin: auto;
-    }
-
-    .categories,
-    .products,
-    .team-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-
-/* untuk di hp */
-@media (max-width: 650px) {
-
-    .menu {
-        gap: 12px;
-        font-size: 14px;
-    }
-
-    .hero h1 {
-        font-size: 38px;
-    }
-
-    .categories,
-    .products,
-    .team-container {
-        grid-template-columns: 1fr;
-    }
-
-    #categories,
-    .shop-section,
-    .team {
-        padding: 55px 5%;
-    }
+body {
+    min-width: 1200px;
 }
